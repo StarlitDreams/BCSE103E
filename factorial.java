@@ -16,5 +16,8 @@ public class factorial {
         int num=myObj.nextInt();
         int result = factorial.fact(num);
         System.out.println("Factorial of " + num + " is: " + result);
+
+        myObj.close();
+
     }
 }
