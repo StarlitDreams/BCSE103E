@@ -5,7 +5,7 @@
 import java.lang.Math;
 import java.util.Scanner;
 
-public class area_petimetre_circle {
+public class area_perimetre_circle {
 
     public static void main(String args[])  throws Exception{
         System.out.println("Enter the radius of the circle: ");
