@@ -10,7 +10,7 @@ public class random_numbers {
         Random rn = new Random();
 
         while (i < 100) {
-            int rand = rn.nextInt(11); // Generates numbers between 0 and 10 inclusive
+            int rand = rn.nextInt(11);
             if (rand > large) {
                 large = rand;
             }
