@@ -9,12 +9,12 @@ public class sum_average {
         Scanner sc = new Scanner(System.in);
         int sum = 0;
         float avg = 0;
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 10; i++) {
             System.out.println("Enter a number: ");
             int num = sc.nextInt();
             sum += num;
         }
-        avg = sum / 5;
+        avg = sum / 10;
         System.out.println("Sum: " + sum);
         System.out.println("Average: " + avg);
         sc.close();
