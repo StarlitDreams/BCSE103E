@@ -1,46 +1,46 @@
-/*
-Write a Java program to insert  (specific position)   
+    /*
+    Write a Java program to insert  (specific position)   
 
-and delete a specific element  from an array
+    and delete a specific element  from an array
 
-for example: 
-
-
-input=50 45 60 78 100
-
-2
-
-250
-
-output=50 45 250 60 78 100
+    for example: 
 
 
+    input=50 45 60 78 100
 
-input=60 78 90 100 150
+    2
 
-100
+    250
 
-output=60 78 90 150
+    output=50 45 250 60 78 100
 
---- Input ---
-50 45 60 78 100
-2
-250
-60
 
---- Program output ---
-50 45 250 60 78 100
-50 45 60 78 100
 
---- Expected output (numbers)---
-50 45 250 60 78 100
-50 45 250 78 100
+    input=60 78 90 100 150
 
-*/
-import java.util.Scanner;
+    100
+
+    output=60 78 90 150
+
+    --- Input ---
+    50 45 60 78 100
+    2
+    250
+    60
+
+    --- Program output ---
+    50 45 250 60 78 100
+    50 45 60 78 100
+
+    --- Expected output (numbers)---
+    50 45 250 60 78 100
+    50 45 250 78 100
+
+    */
+  import java.util.Scanner;
 
 public class insert_delete_array{
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         String input = scanner.nextLine();
@@ -84,4 +84,5 @@ public class insert_delete_array{
         scanner.close();
     }
 }
+
 
