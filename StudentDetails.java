@@ -1,3 +1,26 @@
+/*
+ Write a Java Program to implement the students details using multiple inheritance.
+
+ Student (Class)
+
+   ||
+
+ Test  (Class)
+
+  ||
+
+Sports (Interface)
+
+   ||
+
+Result => Test and Sports
+
+||
+
+Main Class 
+
+Include all the necessary methods and data members to implement the student details.
+ */
 
 class Student {
     String name;
