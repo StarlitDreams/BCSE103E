@@ -20,7 +20,7 @@ import java.util.Scanner;
 
         }
         
-        System.out.println("Enter the intex you want to check: ");
+        System.out.println("Enter the index you want to check: ");
         int index= sc.nextInt();
         try{
             System.out.print(arr[index]);

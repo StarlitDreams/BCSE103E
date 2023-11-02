@@ -79,7 +79,9 @@ public class Main {
                 System.out.println("Invalid input. Please enter a number.");
                 scanner.next();  // Clear the invalid input
             }
+            scanner.close();
         }
+        
     }
 
     private static void accessAccount(Customer customer, int accountNumber) {
